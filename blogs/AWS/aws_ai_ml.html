@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(()=>{setTimeout(()=>{const{markmap:S,mm:Q}=window,$=new S.Toolbar;$.attach(Q);const I=$.render();I.setAttribute("style","position:absolute;bottom:20px;right:20px"),document.body.append(I)})})()</script><script>((l,U,M,R)=>{const N=l();window.mm=N.Markmap.create("svg#mindmap",(U||N.deriveOptions)(R),M),window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.add("markmap-dark")})(()=>window.markmap,null,{"content":"AWS AI/ML and Analytics Services","children":[{"content":"Analytics Services","children":[{"content":"1. Amazon Athena","children":[],"payload":{"tag":"li","lines":"3,4","listIndex":1}},{"content":"2. Amazon Kinesis","children":[],"payload":{"tag":"li","lines":"4,5","listIndex":2}},{"content":"3. Redshift","children":[],"payload":{"tag":"li","lines":"5,6","listIndex":3}},{"content":"4. Amazon QuickSight","children":[],"payload":{"tag":"li","lines":"6,7","listIndex":4}},{"content":"5. AWS Glue","children":[],"payload":{"tag":"li","lines":"7,9","listIndex":5}}],"payload":{"tag":"h2","lines":"2,3"}},{"content":"Machine Learning Platforms","children":[{"content":"1. Amazon SageMaker","children":[],"payload":{"tag":"li","lines":"10,11","listIndex":1}}],"payload":{"tag":"h2","lines":"9,10"}},{"content":"AI Services","children":[{"content":"1. Amazon Lex <code>Conversational AI/ chatbot engine</code>","children":[],"payload":{"tag":"li","lines":"12,13","listIndex":1}},{"content":"2. Amazon Polly <code>Text-to-speech</code>","children":[],"payload":{"tag":"li","lines":"13,14","listIndex":2}},{"content":"3. Amazon Rekognition <code>Image and Video Analysis</code>","children":[],"payload":{"tag":"li","lines":"14,15","listIndex":3}},{"content":"4. Amazon Comprehend <code>NLP and sentiment analysis</code>","children":[],"payload":{"tag":"li","lines":"15,16","listIndex":4}},{"content":"5. Amazon Transcribe <code>speech-to-text</code>","children":[],"payload":{"tag":"li","lines":"16,17","listIndex":5}}],"payload":{"tag":"h2","lines":"11,12"}},{"content":"Analytics Workflows","children":[{"content":"1. <strong>Data collection/ingestion</strong><br>\nData ingestion refers to collecting data from sources such as:<br>\n&#x2022; IoT devices<br>\n&#x2022; Applications<br>\n&#x2022; Logs<br>\n&#x2022; Databases<br>\n&#x2022; Streaming events","children":[{"content":"<strong>Amazon Kinesis</strong> &#x2013; real-time data streaming","children":[],"payload":{"tag":"li","lines":"25,26"}},{"content":"<strong>AWS DataSync</strong> &#x2013; data migration","children":[],"payload":{"tag":"li","lines":"26,27"}},{"content":"<strong>AWS Snowball</strong> &#x2013; large-scale data transfer","children":[],"payload":{"tag":"li","lines":"27,28"}},{"content":"<strong>Amazon MSK (Kafka)</strong> &#x2013; managed streaming platform","children":[],"payload":{"tag":"li","lines":"28,29"}}],"payload":{"tag":"li","lines":"18,29","listIndex":1}},{"content":"2. Data storage","children":[{"content":"<strong>Amazon S3</strong> &#x2013; data lake storage","children":[],"payload":{"tag":"li","lines":"30,31"}},{"content":"<strong>Amazon Redshift</strong> &#x2013; data warehouse","children":[],"payload":{"tag":"li","lines":"31,32"}},{"content":"<strong>Amazon DynamoDB</strong> &#x2013; NoSQL data","children":[],"payload":{"tag":"li","lines":"32,33"}},{"content":"<strong>Amazon RDS</strong> &#x2013; relational database","children":[],"payload":{"tag":"li","lines":"33,34"}}],"payload":{"tag":"li","lines":"29,34","listIndex":2}},{"content":"3. Data processing","children":[{"content":"<strong>AWS Glue</strong> &#x2013; serverless ETL","children":[],"payload":{"tag":"li","lines":"35,36"}},{"content":"<strong>AWS Lambda</strong> &#x2013; event-based processing","children":[],"payload":{"tag":"li","lines":"36,37"}},{"content":"<strong>Amazon EMR</strong> &#x2013; big data processing (Hadoop/Spark)","children":[],"payload":{"tag":"li","lines":"37,38"}}],"payload":{"tag":"li","lines":"34,38","listIndex":3}},{"content":"4. Analytics queries","children":[{"content":"<strong>Amazon Athena</strong> &#x2013; SQL queries on S3","children":[],"payload":{"tag":"li","lines":"39,40"}},{"content":"<strong>Amazon Redshift</strong> &#x2013; large-scale data warehouse","children":[],"payload":{"tag":"li","lines":"40,41"}},{"content":"<strong>Amazon OpenSearch</strong> &#x2013; log analytics and search","children":[],"payload":{"tag":"li","lines":"41,42"}}],"payload":{"tag":"li","lines":"38,42","listIndex":4}},{"content":"5. Machine Learning training","children":[{"content":"<strong>Amazon SageMaker</strong> - <code>Data preparation, Model training, Model tuning, Deployment, Monitoring</code>","children":[],"payload":{"tag":"li","lines":"43,44"}}],"payload":{"tag":"li","lines":"42,44","listIndex":5}},{"content":"6. Visualization and reporting","children":[{"content":"Amazon QuickSight <code>dashboards, reports, ML-powered insights, embedded analytics</code>","children":[],"payload":{"tag":"li","lines":"45,47"}}],"payload":{"tag":"li","lines":"44,47","listIndex":6}}],"payload":{"tag":"h2","lines":"17,18"}},{"content":"Examples","children":[{"content":"<img src=\"image-1.png\" alt=\"alt text\">","children":[],"payload":{"tag":"img","lines":"48,49"}}],"payload":{"tag":"h2","lines":"47,48"}}],"payload":{"tag":"h1","lines":"0,1"}},null)</script>
+</body>
+</html>
