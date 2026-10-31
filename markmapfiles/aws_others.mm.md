@@ -1,3 +1,10 @@
+---
+title: markmap
+markmap:
+  colorFreezeLevel: 2
+  activeNode: {}
+  initialExpandLevel: 1
+---
 # AWS Additional Services
 ## Application Integration
 - **Amazon SQS** `queues processing tasks`
